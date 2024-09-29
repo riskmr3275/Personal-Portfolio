@@ -13,10 +13,10 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Home", href: "#" },
+  { label: "Projects", href: "#" },
+  { label: "About", href: "#" },
+  { label: "Contact", href: "#" },
 ];
 
 export const testimonials = [
@@ -61,7 +61,7 @@ export const testimonials = [
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "ReactJs",
     description:
       "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
   },
@@ -122,33 +122,35 @@ export const checklistItems = [
 
 export const pricingOptions = [
   {
-    title: "Free",
-    price: "$0",
+    title: "Online Learning Platform",
+    price: "Technologies used",
+    Link:"https://github.com/riskmr3275/Wavelearn",
     features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
+      "ReactJs",
+      "ExpressJs",
+      "NodeJs",
+      "MongoDB",
     ],
   },
   {
-    title: "Pro",
-    price: "$10",
+    title: "Training And Placement Cell",
+    price: "Technologies used",
+    Link:"https://github.com/riskmr3275/T-P-Cell-Manit",
     features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
+      "ReactJs",
+      "NodeJs",
+      "ExpressJs",
+      "MySQL",
     ],
   },
   {
-    title: "Enterprise",
-    price: "$200",
+    title: "Url Shortner",
+    price: "Technologies used",
+    Link:"https://github.com/riskmr3275/URL-Shortner1",
     features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
+      "JavaScript",
+      "NodeJs",
+      "Ejs",
     ],
   },
 ];
